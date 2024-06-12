@@ -1,0 +1,181 @@
+section.menu {
+    display: flex;
+    font-family: 'Roboto Slab';
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 16px;
+    
+}
+section.menu h3 {
+    font-size: 20px;
+}
+
+section.menu div.btn-menu {
+    border: 1px solid black;
+    background-color: rgb(255, 217, 28);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+section.menu div.btn-menu:active {
+    background-color: orangered;
+}
+
+section.menu div.btn-menu a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+section.menu div.btn-menu a:active {
+    color: azure;
+    -webkit-tap-highlight-color: transparent;
+}
+
+article.menu-card {
+    
+    font-family: 'Roboto Slab';
+    margin-top: 20px;
+    margin-bottom: 80px;
+    
+}
+
+article.menu-card section.card {
+    
+    border: 4px solid rgb(254, 236, 138);
+    border-radius: 16px;
+    overflow: hidden;
+    width: 322px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+    background-color: rgb(255, 255, 168);
+}
+
+article.menu-card section.card img {
+    
+    width: 322px;
+    height: 340px;
+    object-fit: cover;
+}
+
+article.menu-card section.card div{
+    padding: 12px 16px 16px 16px;
+    text-align: start;
+    
+    
+}
+
+article.menu-card section.card div span:nth-of-type(1){
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+article.menu-card section.card div span:nth-of-type(2){
+    display: block;
+    margin-top: 8px;
+    color: rgb(114, 81, 81);
+}
+
+article.menu-card section.card div span:nth-of-type(3) {
+    display: flex;
+    margin-top: 12px;
+    align-items: center;
+}
+
+article.menu-card section.card div span:nth-of-type(3) svg{
+    
+    margin-left: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+@media (min-width: 640px) and (max-width: 767px) { 
+
+    article.menu-card {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    article.menu-card section.card {
+        width: 100%;
+    }
+
+    article.menu-card section.card img{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) { 
+
+    section.menu {
+
+
+    }
+
+    section.menu h3 {
+
+        font-size: 30px;
+    }
+
+    section.menu div.btn-menu {
+
+        font-size: 26px;
+    }
+
+    article.menu-card {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    article.menu-card section.card {
+        width: 100%;
+    }
+    
+    article.menu-card section.card img{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    section.menu{
+        
+    }
+
+    section.menu h3{
+        font-size: 30px;
+    }
+
+    section.menu div.btn-menu{
+        font-size: 26px;
+
+    }
+
+    article.menu-card {
+        display: flex;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 4px;
+    }
+
+    article.menu-card section.card { 
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    article.menu-card section.card img{
+        width: 100%;
+    }
+
+    
+
+}

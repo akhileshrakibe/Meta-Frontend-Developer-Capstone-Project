@@ -1,0 +1,125 @@
+
+div.hero-div{
+    border: 4px solid #384742;
+    background-color: #495e57;
+
+}
+
+div.hero-div section.hero{
+    font-family: 'Roboto Slab';
+    
+    text-align: center;
+    padding: 1rem;
+
+}
+
+div.hero-div section.hero h1 {
+    color: rgb(252, 219, 32);
+    font-size: 36px;
+    font-weight: 800;
+}
+div.hero-div section.hero p{
+    color: rgb(246, 236, 223);
+}
+
+div.hero-div section.hero p:first-of-type{
+    color: rgb(246, 236, 223);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+div.hero-div section.hero div.btn-res{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: rgb(255, 217, 28);
+}
+
+div.hero-div section.hero div.btn-res:active{
+    background-color: orangered;
+}
+
+div.hero-div section.hero div.btn-res a{
+    color: black;
+    text-decoration: none;
+}
+
+div.hero-div section.hero div.btn-res a:active{
+    color: azure;
+    -webkit-tap-highlight-color: transparent;
+}
+
+div.hero-div section.hero-img {
+    display: none;
+}
+
+
+@media (min-width: 768px) { 
+
+    div.hero-div section.hero h1 {
+        font-size: 64px;
+
+    }
+
+    div.hero-div section.hero p:first-of-type{
+        font-size: 38px;
+
+    }
+
+    div.hero-div section.hero p:nth-of-type(2){
+
+        font-size: 24px;
+    }
+
+    div.hero-div section div.btn-res {
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 1024px) { 
+    
+
+    div.hero-div section.hero{
+        text-align: start;
+        margin-left: 6%;
+    }
+
+    div.hero-div{
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        /* position: relative; */
+        margin-bottom: 14%;
+    }
+
+    div.hero-div section.hero{
+        
+        grid-column: span 7 / span 7;
+        
+    }
+
+    div.hero-div section.hero h1, p, div.btn-res{
+
+    }
+
+    div.hero-div section.hero-img {
+        display: block;
+        /* position: absolute; */
+        position: relative;
+        text-align: center;
+    }
+
+    div.hero-div section.hero-img img{
+        position: absolute;
+        width: 340px;
+        height: 480px;
+        border-radius: 24px;
+        border: 4px solid #384742;
+        margin-top: 70px;
+        margin-left: 40%
+    }
+
+}

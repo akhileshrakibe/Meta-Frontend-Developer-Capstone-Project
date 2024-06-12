@@ -1,0 +1,24 @@
+div.message {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+div button.btnx {
+    
+    background-color: aquamarine;
+    border: none;
+}
+
+div button.btnx:active {
+    
+    color: grey;
+    
+}

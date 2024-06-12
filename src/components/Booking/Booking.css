@@ -1,0 +1,56 @@
+section.booking {
+    font-family: 'Roboto Slab';
+    text-align: center;
+    border-top: 8px solid #384742;
+    border-bottom: 8px solid #384742;
+    
+}
+
+
+section.booking h1{
+    font-size: 38px;
+}
+
+section.booking input {
+    display: block;
+    text-align: center;
+    width: 288px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 12px;
+    
+}
+
+section.booking select {
+    display: block;
+    text-align: center;
+    width: 288px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 120px;
+}
+
+section.booking button.sub-btn{
+    display: block;
+    text-align: center;
+    width: 288px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+section.booking button.sub-btn:active {
+    background-color: rgb(255, 211, 130);
+}
+
